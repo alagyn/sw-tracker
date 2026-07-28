@@ -112,7 +112,7 @@ def main():
 
     data = json.dumps(out)
 
-    with open("tracker/src/compiled_titles.tsx", mode='w') as f:
+    with open("src/compiled_titles.tsx", mode='w') as f:
         f.write('export const TIMELINE = ')
         f.write(data)
 
