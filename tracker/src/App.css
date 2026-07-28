@@ -1,0 +1,30 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 50px 100%;
+}
+
+.current-entry {
+  background-color: #383b49;
+  border-radius: 10px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+button {
+  margin: 10px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.entry-text {
+  font-size: 20px;
+  text-align: left;
+  vertical-align: middle;
+}
