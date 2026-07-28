@@ -39,7 +39,7 @@ function App()
     if (entry.series)
     {
       const series = TIMELINE.series[entry.series - 1]
-      const seriesImage = `/posters/${series.poster}`
+      const seriesImage = `./posters/${series.poster}`
       return (
         <div className='entry'>
           <img src={seriesImage} ></img>
@@ -52,7 +52,7 @@ function App()
     }
     else
     {
-      const movieImage = `/posters/${entry.poster}`
+      const movieImage = `./posters/${entry.poster}`
       return (
         <div className='entry'>
           <img src={movieImage} ></img>
