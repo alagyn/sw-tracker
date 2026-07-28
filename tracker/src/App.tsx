@@ -82,6 +82,7 @@ function App()
         </div>
 
         <button onClick={() => { save_position(curPosition + 1) }}>Next</button>
+        <button onClick={() => { save_position(0) }}>Reset</button>
       </div>
     </>
   )
