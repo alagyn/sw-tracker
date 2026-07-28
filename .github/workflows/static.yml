@@ -37,7 +37,6 @@ jobs:
         with:
           node-version: 26
           cache: npm
-        working-directory: tracker
 
       # Build timeline data
       - name: Build timeline
